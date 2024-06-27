@@ -1,0 +1,15 @@
+{
+  "name": "binary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx pkg --no-bytecode --public-packages \"*\" --public pkgJson/darwin-arm64 --out-path out"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "dependencies": {}
+}
